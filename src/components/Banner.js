@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my 3D land</span>
+                <span className="tagline">Welcome to Configura 3D</span>
                 <h1>{`Hi! I'm Kristaps`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Developer", "3D enthusiast", "Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I believe that 3D content integrated in web has the potential to revolutionize the way we browse internet, and YOUR COMPANY CAN be part of this future.</p>
                   
