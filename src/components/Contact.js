@@ -62,7 +62,7 @@ export const Contact = () => {
 
                 <h4>Call: +371 26448507</h4>
 
-                <h4>Call: +371 26448507</h4>
+                
                 
               </div>}
             </TrackVisibility>
