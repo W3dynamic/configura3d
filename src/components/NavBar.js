@@ -54,7 +54,7 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.facebook.com/profile.php?id=61562534414718"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.facebook.com/profile.php?id=61562534414718"><img src={navIcon2} alt="" /></a>
                 
                 
               </div>
