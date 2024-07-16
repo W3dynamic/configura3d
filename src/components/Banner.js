@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "- Developer", " - 3D enthusiast" ];
+  const toRotate = [ "- 3D designer", " - Product specialist" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to Configura 3D</span>
-                <h1>{`Hi! I'm Kristaps`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Developer", "3D enthusiast", "Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I believe that 3D content integrated in web has the potential to revolutionize the way we browse internet, and YOUR COMPANY CAN be part of this future.</p>
+                <h1>{`Hi! I'm lead developer`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "3D designer", "Product specialist", "Marketing guru" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>We believe that 3D content integrated in web has the potential to revolutionize the way we browse internet, and YOUR COMPANY CAN be part of this future.</p>
                   
               </div>}
             </TrackVisibility>
